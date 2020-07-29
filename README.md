@@ -217,7 +217,7 @@ Project Link: [https://github.com/adminph-de/ps-azure-bginfo](https://github.com
 [issues-url]: https://github.com/adminph-de/ps-azure-bginfo/issues
 [license-shield]: https://img.shields.io/github/license/adminph-de/ps-azure-bginfo.svg?style=flat-square
 [license-url]: https://github.com/adminph-de/ps-azure-bginfo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-shield]: https://img.shields.io/badge/patrickhayo-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/patrickhayo/?locale=en_US
 [product-screenshot]: images/screenshot.png
 [product-screenshot-run]: images/screenshot_run.png
