@@ -129,8 +129,8 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
     {
        "bginfo": {
            "location": "westeurope",
-           "resourcegroup": "myResourceGroup",
-           "vmname": "MyVM"
+           "resourcegroup": "myRG",
+           "vmname": "myVm"
      }
     }
 ]
@@ -141,7 +141,10 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 
 3. Execute the script with you preferd way of doing it. As an example:
 
-----Screen----
+![Product Name Screen Shot][product-screenshot-run]
+
+4. Copy the ```config.bgi```file 
+Finaly you can copy the ```config.bgi```configuration to the virutal machine or you keep the configuration as it is and stick to the Azure default or you customize your own config file. If you like to copy it, find the installed Azure Extention in ```C:\Packages\``` on the virutal maschine you did the installation.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -215,3 +218,4 @@ Project Link: [https://github.com/adminph-de/ps-azure-bginfo](https://github.com
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+[product-screenshot-run]: images/screenshot_run.png
