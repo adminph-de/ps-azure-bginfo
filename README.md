@@ -77,20 +77,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://docs.microsoft.com/en-us/sysinternals/downloads/bginf)
 
-BGinfo is a tool to show various information on your desktop wallpaper. In the screenshot you see the included ```config.bgi```which is used in our company. We deploy it to all our virutal machines in Azure to set a company standard. The infomation helps to be always aware of on which server you are currentely working on. Especaly during trouble shooting and managing various tasks between open RDP sessions, the information on the desktop helps you to doublechek your work.
+BGinfo is a tool to show various information on your desktop wallpaper. The Screenshot above you shows the output of the included ```config.bgi```. We deploy this configuration file to all our virutal machines in Azure to set a company standard. The infomation helps us to be always aware of with which server you are currentely interacting. Especaly during trouble shooting sessions by managing various tasks between open RDP sessions, the information on the desktop helps us to doublechek your work.
 
-Feel free to modify the ```config.bgi``` with you own settings and information. Under the umbral term: "Sharing-Is-Caring", share a desktop screenshot. There are so many different demands and requirement to put as informantion on a desktop that I am courious to see what kind of different layouts and information people put into the ```config.bgi``` configuration. 
+Feel free to modify the ```config.bgi``` with you own settings and information and maybe share a desktop screenshot. There are so many different demands and requirement to put informantion on a desktop that I am courious to see what kind of different layouts and information people put into the ```config.bgi``` configuration.
 
-Also sharing WMI, RegKeys, etc. or other kind of special information you get out of your system to show it on your desktop could be a benefit and interneting to see for all of us.
+Also sharing WMI, RegKeys, etc. or other kind of special information/integrations you get out of your system to show it on your desktop could be a benefit and interneting to see for all of us.
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [BGInfo by Windows Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo)
+* [PowerShell](https://docs.microsoft.com/en-us/powershell/)
+* [Azuer PowerShell](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
 
 
 
@@ -101,11 +101,20 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
+You need a installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) or, if you like to do it on Microsoft Visual Studio Code, you can try the Remote-Connection and let the code run in a isolated Docker container. Find the instruction of how to run here [Using Azure PowerShell in Docker](https://docs.microsoft.com/en-us/powershell/azure/azureps-in-docker?view=azps-4.4.0). This can be helpfull if you use a MacOS or Linux.
+
+Running the script at the end, you need the Azure "AZ" module installed. Here the simple installation (it works the same way in the Docker container)
+[InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
 ```
+if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
+    Write-Warning -Message ('Az module not installed. Having both the AzureRM and ' +
+      'Az modules installed at the same time is not supported.')
+} else {
+    Install-Module -Name Az -AllowClobber -Scope CurrentUser
+}
+```
+
+Now, you are ready to go!
 
 ### Installation
  
@@ -113,12 +122,26 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ```
-2. Install NPM packages
-```sh
-npm install
+
+2. Modify the JSON file ```bginfo.json``` and put in your variable values.
 ```
+[
+    {
+       "bginfo": {
+           "location": "westeurope",
+           "resourcegroup": "myResourceGroup",
+           "vmname": "MyVM"
+     }
+    }
+]
+````
+* ```location``` = Azure Region (in this example: West Europe)
+* ```resourcegroup``` = Resource Groupe where the virtual maschine is netsted in.
+* ```vmname``` = Name of the virutal maschine in the Azure.
 
+3. Execute the script with you preferd way of doing it. As an example:
 
+----Screen----
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -159,7 +182,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@N00ky2010](https://twitter.com/N00ky2010) - patrick.hayo@flsmidth.com
+Patrick Hayo - [@N00ky2010](https://twitter.com/N00ky2010) - patrick.hayo@flsmidth.com
 
 Project Link: [https://github.com/adminph-de/ps-azure-bginfo](https://github.com/adminph-de/ps-azure-bginfo)
 
@@ -168,9 +191,10 @@ Project Link: [https://github.com/adminph-de/ps-azure-bginfo](https://github.com
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Janaina Laguardia Areal Hyldvang, Ph.D.](https://www.linkedin.com/in/janainahyldvang/)
+* [Jakob Daugaard](https://www.linkedin.com/in/jakobdaugaard/?locale=en_US)
+* [Senthil Kumar Bose](https://www.linkedin.com/in/senthil-kumar-bose-6900582/)
+* [Javed Khan](https://www.linkedin.com/in/javed-khan-674863164/)
 
 
 
