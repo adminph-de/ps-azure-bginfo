@@ -35,7 +35,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/adminph-de/ps-azure-bginfo">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="708" height="274">
   </a>
 
   <h3 align="center">YOUR_TITLE</h3>
