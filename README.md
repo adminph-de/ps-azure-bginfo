@@ -99,6 +99,8 @@ Also sharing WMI, RegKeys, etc. or other kind of special information/integration
 
 To get a local copy up and running follow these simple steps.
 
+
+
 ### Prerequisites
 
 You need a installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) or, if you like to do it on Microsoft Visual Studio Code, you can try the Remote-Connection and let the code run in a isolated Docker container. Find the instruction of how to run here [Using Azure PowerShell in Docker](https://docs.microsoft.com/en-us/powershell/azure/azureps-in-docker?view=azps-4.4.0). This can be helpfull if you use a MacOS or Linux.
@@ -116,12 +118,15 @@ if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -List
 
 Now, you are ready to go!
 
+
+
 ### Installation
  
 1. Clone the ps-azure-bginfo
 ```sh
 git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ```
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -143,12 +148,14 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 * ```vmname``` = Name of the virutal maschine in the Azure.
 
 3. Execute the script with you preferd way of doing it (as an example, with Visual Studio Code):
-* Don't forget to do a ```Login-AzAccount``` and a ```Select-AzSubscription`` if you have more than one, before you run the script.
+* Don't forget to do a ```Login-AzAccount``` and a ```Select-AzSubscription``` if you have more than one Subscription, **before** you run the script.
 
 ![Product Name Screen Shot][product-screenshot-run]
 
 4. Copy the ```config.bgi```file 
 Finaly you can copy the ```config.bgi```configuration to the virutal machine or you keep the configuration as it is and stick to the Azure default or you customize your own config file. If you like to copy it, find the installed Azure Extention in ```C:\Packages\``` on the virutal maschine you did the installation.
+
+
 
 <!-- ROADMAP -->
 ## Roadmap
