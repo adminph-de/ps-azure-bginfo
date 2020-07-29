@@ -152,8 +152,8 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 
 ![Product Name Screen Shot][product-screenshot-run]
 
-4. Copy the ```config.bgi```file 
-Finaly you can copy the ```config.bgi```configuration to the virutal machine or you keep the configuration as it is and stick to the Azure default or you customize your own config file. If you like to copy it, find the installed Azure Extention in ```C:\Packages\``` on the virutal maschine you did the installation.
+4. Copy the ```config.bgi``` file 
+Finaly you can copy the ```config.bgi``` configuration to the virutal machine or you keep the configuration as it is and stick to the Azure default or you customize your own config file. If you like to copy it, find the installed Azure Extention in ```C:\Packages\``` on the virutal maschine you did the installation.
 
 
 
@@ -169,7 +169,7 @@ See the [open issues](https://github.com/adminph-de/ps-azure-bginfo/issues) for 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project
+1. [Fork](https://docs.github.com/en/enterprise/2.13/user/articles/fork-a-repo) the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
