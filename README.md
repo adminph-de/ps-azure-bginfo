@@ -101,19 +101,10 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+You need a installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) or, if you like to do it on Microsoft Visual Studio Code, you can try the Remote-Connection and let the code run in a isolated Docker container. Find the instruction of how to run here [Using Azure PowerShell in Docker](https://docs.microsoft.com/en-us/powershell/azure/azureps-in-docker?view=azps-4.4.0). This can be helpfull if you use a MacOS or Linux.
 
-### Installation
- 
-1. Clone the ps-azure-bginfo
-```sh
-git clone https://github.com/adminph-de/ps-azure-bginfo.git
-```
-2. [Install](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0) PowerShell Azure Module "AZ"
+Running the script at the end, you need the Azure "AZ" module installed. Here the simple installation (it works the same way in the Docker container)
+InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
 ```
 if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
     Write-Warning -Message ('Az module not installed. Having both the AzureRM and ' +
@@ -122,6 +113,16 @@ if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -List
     Install-Module -Name Az -AllowClobber -Scope CurrentUser
 }
 ```
+
+Now, you are ready to go!
+
+### Installation
+ 
+1. Clone the ps-azure-bginfo
+```sh
+git clone https://github.com/adminph-de/ps-azure-bginfo.git
+```
+
 
 
 
