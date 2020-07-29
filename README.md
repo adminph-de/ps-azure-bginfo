@@ -38,11 +38,10 @@
     <img src="images/logo.png" alt="Logo" width="708" height="274">
   </a>
 
-  <h3 align="center">Deploy BGinfo to a single IaaS virutal machine in Azure</h3>
+  <h3 align="center">Deploy BGinfo to a single IaaS virtual machine in Azure</h3>
 
   <p align="center">
-    PowerShell script with a JSON variable file to install the BGinfo Extention
-    to an Azure deployed virutal maschine.
+    PowerShell script with a JSON variable file to install the BGinfo Extention to an Azure deployed virtual machine.
     <br />
     <a href="https://github.com/adminph-de/ps-azure-bginfo"><strong>Explore the docs »</strong></a>
     <br />
