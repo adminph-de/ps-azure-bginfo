@@ -107,7 +107,7 @@ You need a installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) 
 
 Running the script at the end, you need the Azure "AZ" module installed. Here the simple installation (it works the same way in the Docker container)
 [InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
-```
+```powershell
 if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
     Write-Warning -Message ('Az module not installed. Having both the AzureRM and ' +
       'Az modules installed at the same time is not supported.')
@@ -132,7 +132,7 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ## Usage
 
 1. Modify the JSON file ```bginfo.json``` and put in your variable values with your favorit tool (as example Microsoft Visual Studio Code):
-```
+```json
 [
     {
        "bginfo": {
@@ -143,12 +143,9 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
     }
 ]
 ````
-* ```location``` = Azure Region (in this example: West Europe)
-* ```resourcegroup``` = Resource Groupe where the virtual maschine is netsted in.
-* ```vmname``` = Name of the virutal maschine in the Azure.
 
 3. Execute the script with you preferd way of doing it (as an example, with Visual Studio Code):
-* Don't forget to do a ```Login-AzAccount``` and a ```Select-AzSubscription``` if you have more than one Subscription, **before** you run the script.
+> Don't forget to do a ```Login-AzAccount``` and a ```Select-AzSubscription``` if you have more than one Subscription, **before** you run the script.
 
 ![Product Name Screen Shot][product-screenshot-run]
 
