@@ -38,10 +38,11 @@
     <img src="images/logo.png" alt="Logo" width="708" height="274">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">Deploy BGinfo to a single IaaS virutal machine in Azure</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    PowerShell script with a JSON variable file to install the BGinfo Extention
+    to an Azure deployed virutal maschine.
     <br />
     <a href="https://github.com/adminph-de/ps-azure-bginfo"><strong>Explore the docs »</strong></a>
     <br />
@@ -78,9 +79,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`adminph-de`, `ps-azure-bginfo`, `N00ky2010`, `patrick.hayo@flsmidth.com`
+BGinfo is a tool to show various information on your desktop wallpaper. In the screenshot you see the included ```config.bgi```which is used in our company. We deploy it to all our virutal machines in Azure to set a company standard. The infomation helps to be always aware of on which server you are currentely working on. Especaly during trouble shooting and managing various tasks between open RDP sessions, the information on the desktop helps you to doublechek your work.
+
+Feel free to modify the ```config.bgi``` with you own settings and information. Under the umbral term: "Sharing-Is-Caring", share a desktop screenshot. There are so many different demands and requirement to put as informantion on a desktop that I am courious to see what kind of different layouts and information people put into the ```config.bgi``` configuration. 
+
+Also sharing WMI, RegKeys, etc. or other kind of special information you get out of your system to show it on your desktop could be a benefit and interneting to see for all of us.
 
 
 ### Built With
