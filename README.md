@@ -123,9 +123,25 @@ Now, you are ready to go!
 git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ```
 
-2. Modify the JSON file ```bginfo.json``` and put in your vaules.
+2. Modify the JSON file ```bginfo.json``` and put in your variable values.
+```
+[
+    {
+       "bginfo": {
+           "location": "westeurope",
+           "resourcegroup": "myResourceGroup",
+           "vmname": "MyVM"
+     }
+    }
+]
+````
+* ```location``` = Azure Region (in this example: West Europe)
+* ```resourcegroup``` = Resource Groupe where the virtual maschine is netsted in.
+* ```vmname``` = Name of the virutal maschine in the Azure.
 
+3. Execute the script with you preferd way of doing it. As an example:
 
+----Screen----
 
 <!-- USAGE EXAMPLES -->
 ## Usage
