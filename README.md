@@ -79,11 +79,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://docs.microsoft.com/en-us/sysinternals/downloads/bginf)
 
-BGinfo is a tool to show various information on your desktop wallpaper. The Screenshot above you shows the output of the included ```config.bgi```. We deploy this configuration file to all our virutal machines in Azure to set a company standard. The infomation helps us to be always aware of with which server you are currentely interacting. Especaly during trouble shooting sessions by managing various tasks between open RDP sessions, the information on the desktop helps us to doublechek your work.
+BGinfo is a tool to show various information on your desktop wallpaper. The Screenshot above you shows the output of the included config.bgi. We deploy this configuration file to all our virtual machines in Azure to set a company standard. The information helps us to be always aware of which server you are currently interacting. Especially during troubleshooting sessions, the information on the desktop helps us double-check our work by managing various tasks between open RDP sessions.
 
-Feel free to modify the ```config.bgi``` with you own settings and information and maybe share a desktop screenshot. There are so many different demands and requirement to put informantion on a desktop that I am courious to see what kind of different layouts and information people put into the ```config.bgi``` configuration.
+Feel free to modify the ```config.bgi``` with your settings and information and maybe share a desktop screenshot. There are so many different demands and requirements to put information on a desktop that I am curious to see what kind of different layouts and information people put into the ```config.bgi``` configuration.
 
-Also sharing WMI, RegKeys, etc. or other kind of special information/integrations you get out of your system to show it on your desktop could be a benefit and interneting to see for all of us.
+Also, sharing WMI, RegKeys, etc. or other kinds of individual information/integrations, you get out of your system to show it on your desktop could be beneficial and exciting to see for all of us.
 
 
 ### Built With
@@ -103,9 +103,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-You need a installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) or, if you like to do it on Microsoft Visual Studio Code, you can try the Remote-Connection and let the code run in a isolated Docker container. Find the instruction of how to run here [Using Azure PowerShell in Docker](https://docs.microsoft.com/en-us/powershell/azure/azureps-in-docker?view=azps-4.4.0). This can be helpfull if you use a MacOS or Linux.
+You need an installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) or, if you like to do it on Microsoft Visual Studio Code, you can try the Remote-Connection and let the code run in an isolated Docker container. Find the instruction of how to run here [Using Azure PowerShell in Docker](https://docs.microsoft.com/en-us/powershell/azure/azureps-in-docker?view=azps-4.4.0). It can be helpful if you use a macOS or Linux.
 
-Running the script at the end, you need the Azure "AZ" module installed. Here the simple installation (it works the same way in the Docker container)
+Running the script in the end, you need the Azure "AZ" module installed. Here the simple installation (it works the same way in the Docker container)
 [InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
 ```powershell
 if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
@@ -144,14 +144,13 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ]
 ````
 
-3. Execute the script with you preferd way of doing it (as an example, with Visual Studio Code):
+3. Execute the script with you preferred way of doing it (as an example, with Visual Studio Code):
 > Don't forget to do a ```Login-AzAccount``` and a ```Select-AzSubscription``` if you have more than one Subscription, **before** you run the script.
 
 ![Product Name Screen Shot][product-screenshot-run]
 
 4. Copy the ```config.bgi``` file 
-Finaly you can copy the ```config.bgi``` configuration to the virutal machine or you keep the configuration as it is and stick to the Azure default or you customize your own config file. If you like to copy it, find the installed Azure Extention in ```C:\Packages\``` on the virutal maschine you did the installation.
-
+Finally you can copy the ```config.bgi``` configuration to the virutal machine or you keep the setup as it is and stick to the Azure default or you customize your own config file. If you like to copy it, find the installed Azure Extention in ```C:\Packages\``` on the virtual machine you did the installation.
 
 
 <!-- ROADMAP -->
