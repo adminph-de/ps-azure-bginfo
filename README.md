@@ -107,7 +107,8 @@ You need a installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) 
 
 Running the script at the end, you need the Azure "AZ" module installed. Here the simple installation (it works the same way in the Docker container)
 [InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
-```if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
+```ps
+if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
     Write-Warning -Message ('Az module not installed. Having both the AzureRM and ' +
       'Az modules installed at the same time is not supported.')
 } else {
@@ -131,7 +132,8 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ## Usage
 
 1. Modify the JSON file ```bginfo.json``` and put in your variable values with your favorit tool (as example Microsoft Visual Studio Code):
-```[
+```json
+[
     {
        "bginfo": {
            "location": "westeurope",
