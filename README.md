@@ -105,12 +105,14 @@ You need a installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) 
 
 Running the script at the end, you need the Azure "AZ" module installed. Here the simple installation (it works the same way in the Docker container)
 InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
-```if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
+```
+if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
     Write-Warning -Message ('Az module not installed. Having both the AzureRM and ' +
       'Az modules installed at the same time is not supported.')
 } else {
     Install-Module -Name Az -AllowClobber -Scope CurrentUser
-}```
+}
+```
 
 Now, you are ready to go!
 
