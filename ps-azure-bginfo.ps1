@@ -1,13 +1,11 @@
 # Adding BGinfo Extention to a VM in Azure
 
-$vm = 
-$rg =
-$location =
+$json = Get-Content -Raw -Path bginfo.json | ConvertFrom-Json
 
 Set-AzVMExtension -ExtensionName BGInfo `
     -Publisher Microsoft.Compute `
     -Version 2.1 `
     -ExtensionType BGInfo `
-    -Location $location `
-    -ResourceGroupName $rg `
-    -VMName $vm
+    -Location $json[0].bginfo.location `
+    -ResourceGroupName $json[0].bginfo.resourcegroupe. `
+    -VMName $json[0].bginfo.location.vmname

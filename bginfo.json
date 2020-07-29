@@ -1,0 +1,9 @@
+[
+    {
+       "bginfo": {
+           "location": "westeurope",
+           "resourcegroup": "myResourceGroup",
+           "vmname": "MyVM"
+     }
+    }
+]
