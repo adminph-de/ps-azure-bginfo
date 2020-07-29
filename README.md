@@ -123,7 +123,10 @@ Now, you are ready to go!
 git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ```
 
-2. Modify the JSON file ```bginfo.json``` and put in your variable values.
+<!-- USAGE EXAMPLES -->
+## Usage
+
+1. Modify the JSON file ```bginfo.json``` and put in your variable values with your favorit tool (as example Microsoft Visual Studio Code):
 ```
 [
     {
@@ -139,21 +142,13 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 * ```resourcegroup``` = Resource Groupe where the virtual maschine is netsted in.
 * ```vmname``` = Name of the virutal maschine in the Azure.
 
-3. Execute the script with you preferd way of doing it. As an example:
+3. Execute the script with you preferd way of doing it (as an example, with Visual Studio Code):
+* Don't forget to do a ```Login-AzAccount``` and a ```Select-AzSubscription`` if you have more than one, before you run the script.
 
 ![Product Name Screen Shot][product-screenshot-run]
 
 4. Copy the ```config.bgi```file 
 Finaly you can copy the ```config.bgi```configuration to the virutal machine or you keep the configuration as it is and stick to the Azure default or you customize your own config file. If you like to copy it, find the installed Azure Extention in ```C:\Packages\``` on the virutal maschine you did the installation.
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
