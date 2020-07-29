@@ -77,9 +77,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][BGInfo]](https://docs.microsoft.com/en-us/sysinternals/downloads/bginf)
 
-BGinfo is a tool to show various information on your desktop wallpaper. The Screenshot above you shows the output of the included ```config.bgi``. We deploy this configuration file to all our virutal machines in Azure to set a company standard. The infomation helps us to be always aware of with which server you are currentely interacting. Especaly during trouble shooting sessions by managing various tasks between open RDP sessions, the information on the desktop helps us to doublechek your work.
+BGinfo is a tool to show various information on your desktop wallpaper. The Screenshot above you shows the output of the included ```config.bgi```. We deploy this configuration file to all our virutal machines in Azure to set a company standard. The infomation helps us to be always aware of with which server you are currentely interacting. Especaly during trouble shooting sessions by managing various tasks between open RDP sessions, the information on the desktop helps us to doublechek your work.
 
 Feel free to modify the ```config.bgi``` with you own settings and information and maybe share a desktop screenshot. There are so many different demands and requirement to put informantion on a desktop that I am courious to see what kind of different layouts and information people put into the ```config.bgi``` configuration.
 
@@ -113,9 +113,14 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ```
-2. Install NPM packages
-```sh
-npm install
+2. [Install](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0) PowerShell Azure Module "AZ"
+```
+if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
+    Write-Warning -Message ('Az module not installed. Having both the AzureRM and ' +
+      'Az modules installed at the same time is not supported.')
+} else {
+    Install-Module -Name Az -AllowClobber -Scope CurrentUser
+}
 ```
 
 
