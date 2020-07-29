@@ -77,7 +77,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot]][BGInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginf)
+[![Product Name Screen Shot][product-screenshot]](https://docs.microsoft.com/en-us/sysinternals/downloads/bginf)
 
 BGinfo is a tool to show various information on your desktop wallpaper. The Screenshot above you shows the output of the included ```config.bgi```. We deploy this configuration file to all our virutal machines in Azure to set a company standard. The infomation helps us to be always aware of with which server you are currentely interacting. Especaly during trouble shooting sessions by managing various tasks between open RDP sessions, the information on the desktop helps us to doublechek your work.
 
