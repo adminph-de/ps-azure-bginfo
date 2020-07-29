@@ -7,5 +7,5 @@ Set-AzVMExtension -ExtensionName BGInfo `
     -Version 2.1 `
     -ExtensionType BGInfo `
     -Location $json[0].bginfo.location `
-    -ResourceGroupName $json[0].bginfo.resourcegroupe. `
-    -VMName $json[0].bginfo.location.vmname
+    -ResourceGroupName $json[0].bginfo.resourcegroup `
+    -VMName $json[0].bginfo.vmname
