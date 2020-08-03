@@ -115,7 +115,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See `LICENSE` for more information.
 
-
 ## Contact
 
 Project Link: [https://github.com/adminph-de/ps-powerbi-asr-report](https://github.com/adminph-de/ps-powerbi-asr-report)
