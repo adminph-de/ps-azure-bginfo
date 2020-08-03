@@ -6,7 +6,6 @@ layout: default
 *** To avoid retyping too much info. Do a search and replace for the following:
 *** adminph-de, ps-azure-bginfo, N00ky2010, patrick.hayo@flsmidth.com
 -->
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -14,9 +13,8 @@ layout: default
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
 <p align="left">
-  <a href="https://github.com/adminph-de/ps-powerbi-asr-report">
+  <a href="{{site.baseurl}}">
     <img src="{{site.baseurl}}/assets/images/logo.png" alt="Code Snipes" width="60%" height="60%">
   </a>
 </p>
@@ -29,7 +27,6 @@ layout: default
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
-* [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -115,14 +112,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See `LICENSE` for more information.
 
-## Contact
-
-Project Link: [https://github.com/adminph-de/ps-powerbi-asr-report](https://github.com/adminph-de/ps-powerbi-asr-report)
-
-[Patrick Hayo](patrick.hayo@flsmidth.com)
-
-[![N00ky2010](https://img.shields.io/twitter/follow/N00ky2010)](https://www.twitter.com/N00ky2010)
-
 
 ## Acknowledgements
 
@@ -130,6 +119,11 @@ Project Link: [https://github.com/adminph-de/ps-powerbi-asr-report](https://gith
 * [Jakob Daugaard](https://www.linkedin.com/in/jakobdaugaard/?locale=en_US)
 * [Senthil Kumar Bose](https://www.linkedin.com/in/senthil-kumar-bose-6900582/)
 * [Javed Khan](https://www.linkedin.com/in/javed-khan-674863164/)
+
+
+## Powered by
+<a href="{{site.baseurl}}"><img align="top" src="{{site.baseurl}}/assets/images/dn-logo.png" alt="Digital Nova" width="40%" height="40%"></a>
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
