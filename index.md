@@ -21,6 +21,7 @@ layout: default
   </a>
 </p>
 
+{{ site.url }}{{ pageurl }}
 
 ## Table of Contents
 
