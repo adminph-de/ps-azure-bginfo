@@ -17,7 +17,7 @@
   <body>
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-        <a href="http://github.code-snipes.de"><img target="_blank" src="{{site.baseurl}}/assets/images/cs-logo.png" alt="Code Snipes" width="12%" height="12%"></a>
+        <a href="{{ site.url }}"><img target="_blank" src="{{site.baseurl}}/assets/images/cs-logo.png" alt="Code Snipes" width="12%" height="12%"></a>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         {% if site.description or site.github.project_tagline %}
           <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -43,7 +43,7 @@
     {% if site.github.is_project_page %}
       Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
     {% endif %}
-      Hosted on GitHub Pages &mdash; by <a href="{{ site.url }}"> Code Snipes</a></p>
+      Hosted on GitHub Pages &mdash; sponsored by <a href="{{ site.url }}">Digital Nova</a><br></p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
