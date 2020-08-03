@@ -21,8 +21,6 @@ layout: default
   </a>
 </p>
 
-{{ site.url }}{{ pageurl }}
-
 ## Table of Contents
 
 * [About the Project](#about-the-project)
@@ -120,9 +118,11 @@ Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. S
 
 ## Contact
 
-Patrick Hayo - [@N00ky2010](https://twitter.com/N00ky2010) - patrick.hayo@flsmidth.com
+Project Link: [https://github.com/adminph-de/ps-powerbi-asr-report](https://github.com/adminph-de/ps-powerbi-asr-report)
 
-Project Link: [https://github.com/adminph-de/ps-azure-bginfo](https://github.com/adminph-de/ps-azure-bginfo)
+[Patrick Hayo](patrick.hayo@flsmidth.com)
+
+[![N00ky2010](https://img.shields.io/twitter/follow/N00ky2010)](https://www.twitter.com/N00ky2010)
 
 
 ## Acknowledgements

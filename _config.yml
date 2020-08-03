@@ -1,12 +1,9 @@
 
 title: BGInfo Extention for Azure (IaSS)
 description: Simple way to deploy BGInfo into a virtual machine
-show_downloads: false
+show_downloads: true
 google_analytics:
 theme: jekyll-theme-modernist
-
-url: "http://github.code-snipes.de" 
-pageurl: "ps-azure-bginfo"
 
 github:
   zip_url: https://github.com/adminph-de/ps-azure-bginfo/archive/1.0.zip
