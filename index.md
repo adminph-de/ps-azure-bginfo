@@ -35,7 +35,7 @@ layout: default
 
 ## About The Project
 
-BGinfo is a tool to show various information on your desktop wallpaper. The Screenshot above you shows the output of the included config.bgi. We deploy this configuration file to all our virtual machines in Azure to set a company standard. The information helps us to be always aware of which server you are currently interacting. Especially during troubleshooting sessions, the information on the desktop helps us double-check our work by managing various tasks between open RDP sessions.
+[https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo](BGinfo) is a tool to show various information on your desktop wallpaper. My screenshot above shows the output of our default config file(included in my git repository). We deploy this configuration file to all our virtual machines in Azure and setting a company standard. The information helps us to be always aware of which server you are currently interacting. Especially during troubleshooting sessions, the information on the desktop helps us double-check our work by managing various tasks between open RDP sessions.
 
 Feel free to modify the ```config.bgi``` with your settings and information and maybe share a desktop screenshot. There are so many different demands and requirements to put information on a desktop that I am curious to see what kind of different layouts and information people put into the ```config.bgi``` configuration.
 
