@@ -24,8 +24,8 @@ layout: default
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
@@ -42,7 +42,7 @@ Feel free to modify the ```config.bgi``` with your settings and information and 
 Also, sharing WMI, RegKeys, etc. or other kinds of individual information/integrations, you get out of your system to show it on your desktop could be beneficial and exciting to see for all of us.
 
 
-### Prerequisites
+## Prerequisites
 
 On a macOS or Linux OS, you need an installed [PowerShell](https://docs.microsoft.com/en-us/powershell/) or, if you like to do it on Microsoft Visual Studio Code, you can try the Remote-Connection and let the code run in an isolated Docker container. Find the instruction of how to run here [Using Azure PowerShell in Docker](https://docs.microsoft.com/en-us/powershell/azure/azureps-in-docker?view=azps-4.4.0). It can be helpful if you use a macOS or Linux.
 
@@ -57,7 +57,7 @@ if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -List
 }
 ```
 
-### Installation
+## Installation
  
 Clone my Git Reposetory ``ps-azure-bginfo``
 ```sh
