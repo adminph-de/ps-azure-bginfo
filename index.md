@@ -24,8 +24,8 @@ layout: default
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Prerequisites](#prerequisites)
-* [Installation](#installation)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
