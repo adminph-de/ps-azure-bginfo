@@ -41,12 +41,12 @@
   - [Acknowledgements](#acknowledgements)
   - [Referenzes](#referenzes)
 
-### Documentation
+## Documentation
 
 Find a detaild documentation at [http://github.code-snipes.de/ps-azure-bginfo](http://github.code-snipes.de/ps-azure-bginfo) 
 
 
-### Prerequisites
+## Prerequisites
 
 It is mandatory to have the [InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0) module installed.
 ```powershell
