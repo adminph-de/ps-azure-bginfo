@@ -68,7 +68,7 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 
 ## Usage
 
-#### Change the JSON file (bginfo.json):
+#### Change the JSON file (bginfo.json)
 ```json
 [
     {
@@ -81,12 +81,12 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ]
 ````
 
-#### Execute the script:
+#### Execute the script
 ```bash
 ps-azure-bginfo.ps1
 ``` 
 
-#### Copy the configuration file
+#### Copy the configuration file to the virtual machine
 ```config.bgi``` to ```C:\Packages\Plugins\Microsoft.Compute.BGInfo\2.1\```
 
 #### Output after running:
