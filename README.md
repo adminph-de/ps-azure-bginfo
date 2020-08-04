@@ -42,9 +42,8 @@
 
 ### Documentation
 
-Find the more detaild documentation at 
+Find the more detaild in the DOCUMENTATION at [http://github.code-snipes.de/ps-azure-bginfo](http://github.code-snipes.de/ps-azure-bginfo) 
 
-[product-documentation]
 
 ### Prerequisites
 
