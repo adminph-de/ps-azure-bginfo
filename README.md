@@ -18,7 +18,7 @@
     <img src="images/logo.png" alt="Code Snipes" width="35%" height="35%">
   </a>
   <p align="left">
-    Output your ASR status into a PowerBI report by using PowerShell
+    Deply a BGInfo Extension to your virtual machines in Azure.
     <br />
     <a href="https://github.com/adminph-de/ps-azure-bginfo/issues">Bug Report</a>
     ·
@@ -30,6 +30,7 @@
 ## Content
 
 - BGInfo Deployment on Azure IaaS
+  - [Documentation](#documentation)
   - [Content](#content)
   - [Prerequisites](#Prerequisites)
   - [Installation](#installation)
@@ -42,7 +43,7 @@
 
 ### Documentation
 
-Find the more detaild in the DOCUMENTATION at [http://github.code-snipes.de/ps-azure-bginfo](http://github.code-snipes.de/ps-azure-bginfo) 
+Find a detaild documentation at [http://github.code-snipes.de/ps-azure-bginfo](http://github.code-snipes.de/ps-azure-bginfo) 
 
 
 ### Prerequisites
@@ -60,14 +61,14 @@ if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -List
 
 ## Installation
 
-Clone the git reop to start:
+####Clone the git reop to start:
 ```sh
 git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ```
 
 ## Usage
 
-Change the JSON file (bginfo.json):
+####Change the JSON file (bginfo.json):
 ```json
 [
     {
@@ -80,18 +81,19 @@ Change the JSON file (bginfo.json):
 ]
 ````
 
-Execute the script:
+####Execute the script:
 ```bash
 ps-azure-bginfo.ps1
 ``` 
 
-Copy the ```config.bgi``` file to ```C:\Packages\Plugins\Microsoft.Compute.BGInfo\2.1\```
+####Copy the ```config.bgi``` file to ```C:\Packages\Plugins\Microsoft.Compute.BGInfo\2.1\```
 
-Output after running:
+####Output after running:
 <p align="left">
   <a href="https://github.com/adminph-de/ps-azure-bginfo">
     <img src="images/screenshot.png" alt="Code Snipes" width="35%" height="35%">
   </a>
+</p>
 
 
 ## Contributing
