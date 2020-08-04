@@ -48,8 +48,7 @@ Find a detaild documentation at [http://github.code-snipes.de/ps-azure-bginfo](h
 
 ### Prerequisites
 
-It is mandatory to have the Azure "AZ" module installed.
-[InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
+It is mandatory to have the [InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0) module installed.
 ```powershell
 if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
     Write-Warning -Message ('Az module not installed. Having both the AzureRM and ' +
