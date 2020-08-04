@@ -121,9 +121,6 @@ Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. S
 * [Javed Khan](https://www.linkedin.com/in/javed-khan-674863164/)
 
 
-## Powered by
-<a href="{{site.baseurl}}"><img align="top" src="{{site.baseurl}}/assets/images/dn-logo.png" alt="Digital Nova" width="40%" height="40%"></a>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
