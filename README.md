@@ -40,6 +40,11 @@
   - [Acknowledgements](#acknowledgements)
   - [Referenzes](#referenzes)
 
+### Documentation
+
+Find the more detaild documentation at 
+
+[product-documentation]
 
 ### Prerequisites
 
@@ -126,7 +131,7 @@ Project Link: [https://github.com/adminph-de/ps-azure-bginfo](https://github.com
 ## Referenzes
 
 * [Create an Azure service principal](https://docs.microsoft.com/en-us/powershell/azure/create-azure-service-principal-azureps?view=azps-4.4.0)
-* [BGInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo/)
+* [BGInfo by Sysinternals](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo/)
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -143,4 +148,4 @@ Project Link: [https://github.com/adminph-de/ps-azure-bginfo](https://github.com
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/patrickhayo/?locale=en_US
 [product-screenshot]: images/screenshot.png
-[product-screenshot-run]: images/screenshot_run.png
+[product-documentation]: http://github.code-snipes.de/ps-azure-bginfo
