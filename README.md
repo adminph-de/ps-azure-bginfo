@@ -48,7 +48,7 @@ Find a detaild documentation at [http://github.code-snipes.de/ps-azure-bginfo](h
 
 ### Prerequisites
 
-Running the script in the end, you need the Azure "AZ" module installed. Here the simple installation (it works the same way in the Docker container)
+It is mandatory to have the Azure "AZ" module installed.
 [InstallAzure Module "AZ"](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-4.4.0)
 ```powershell
 if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {
@@ -61,14 +61,14 @@ if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -List
 
 ## Installation
 
-####Clone the git reop to start:
+#### Clone the git reop to start:
 ```sh
 git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ```
 
 ## Usage
 
-####Change the JSON file (bginfo.json):
+#### Change the JSON file (bginfo.json):
 ```json
 [
     {
@@ -81,14 +81,15 @@ git clone https://github.com/adminph-de/ps-azure-bginfo.git
 ]
 ````
 
-####Execute the script:
+#### Execute the script:
 ```bash
 ps-azure-bginfo.ps1
 ``` 
 
-####Copy the ```config.bgi``` file to ```C:\Packages\Plugins\Microsoft.Compute.BGInfo\2.1\```
+#### Copy the configuration file
+```config.bgi``` to ```C:\Packages\Plugins\Microsoft.Compute.BGInfo\2.1\```
 
-####Output after running:
+#### Output after running:
 <p align="left">
   <a href="https://github.com/adminph-de/ps-azure-bginfo">
     <img src="images/screenshot.png" alt="Code Snipes" width="35%" height="35%">
